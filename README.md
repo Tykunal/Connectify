@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Connectify** is a full-fledged social media platform built using the MERN stack, with real-time chat functionality powered by Socket.io. This app offers a seamless and interactive experience with support for posts, comments, likes, following/unfollowing users, and a real-time chat feature that includes image support. It also comes with a user-friendly, fully responsive design, and supports both dark and light modes.
+**Connectify** is a full-fledged social media platform built using the MERN stack, with real-time chat functionality powered by Socket.io. This app offers a seamless and interactive experience with support for posts, comments, likes, following/unfollowing users, and a real-time chat feature that includes image support through Cloudinary. It also comes with a user-friendly, fully responsive design, and supports both dark and light modes.
 
 ## Key Features
 
