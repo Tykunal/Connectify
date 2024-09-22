@@ -1,45 +1,36 @@
-# 12+ Hour MERN Masterclass: Build and Deploy a Threads App with Real-Time Chat Functionality
+# Connectify - A Real-time Social Media Platform
 
-![Demo App](https://i.ibb.co/BnGdh10/Group-62.png)
+## Overview
 
-[Video Tutorial on Youtube](https://youtu.be/G4V4xO9wyD8)
+**Connectify** is a full-fledged social media platform built using the MERN stack, with real-time chat functionality powered by Socket.io. This app offers a seamless and interactive experience with support for posts, comments, likes, following/unfollowing users, and a real-time chat feature that includes image support. It also comes with a user-friendly, fully responsive design, and supports both dark and light modes.
 
-Feature List:
+## Key Features
 
--   🌟 Tech stack: MERN + Socket.io + Chakra UI
--   🎃 Authentication & Authorization with JWT
--   📝 Create Post
--   🗑️ Delete Post
--   ❤️ Like/Unlike Post
--   💬 Comment to a Post
--   👥 Follow/Unfollow Users
--   ❄️ Freeze Your Account
--   🌓 Dark/Light Mode
--   📱 Completely Responsive
--   💬 Chat App With Image Support
--   👀 Seen/Unseen Status for Messages
--   🔊 Notification sounds
--   ⭐ Deployment for FREE
+- **Authentication & Authorization**: Secure login and registration with JWT tokens.
+- **Create Post**: Share your thoughts with the world by creating posts.
+- **Delete Post**: Remove your posts when needed.
+- **Like/Unlike Post**: Engage with other users by liking/unliking posts.
+- **Comment on Posts**: Share your views by commenting on any post.
+- **Follow/Unfollow Users**: Connect and stay updated with users by following them.
+- **Freeze Account**: Freeze your account temporarily if needed.
+- **Dark/Light Mode**: Switch between dark and light themes for a better user experience.
+- **Real-time Chat**: Message friends with real-time chat and image sharing, powered by Socket.io.
+- **Seen/Unseen Status**: See when your messages are read by others.
+- **Responsive Design**: Fully optimized for all device sizes.
 
-### Setup .env file
+## Tech Stack
 
-```js
-PORT=...
-MONGO_URI=...
-JWT_SECRET=...
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-```
+- **Frontend**: React.js, Chakra UI for styling
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Real-time Communication**: Socket.io
+- **Authentication**: JWT (JSON Web Tokens)
+- **Version Control**: Git & GitHub
 
-### Build the app
+## Prerequisites
 
-```shell
-npm run build
-```
+Ensure you have the following installed:
+- Node.js
+- MongoDB
+- Git
 
-### Start the app
-
-```shell
-npm start
-```
